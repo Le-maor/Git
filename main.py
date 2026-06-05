@@ -47,4 +47,19 @@ git branch -D 分支名称 ---> 强制删除
 2.develop(开发)分支:主要开发分支,阶段开发完毕合并到主分支
 3.feature分支:从develop创建的分支,研发任务完成后合并到develop分支
 4.htofix分支:从master派生的分支,一般作为线上bug修复使用,修复完成后合并到master,develop,test分支上
+
+-----------------------------------------操作远程仓库-----------------------------------------
+添加远程仓库:git remote add 远端名称 仓库路径
+远端名称:默认是origin
+仓库路径:从远端服务器获取此URL
+
+查看远程仓库:git remote
+
+推送到远程仓库:git push origin master
+git push --set-upstream origin master:master ---> 建立起本地和远端分支的关联联系
+
+从远程仓库克隆:git clone 仓库路径 本地目录
+本地目录可以省略,会自动生成一个目录
+
+
 """
