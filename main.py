@@ -14,6 +14,7 @@
 查看修改的状态:git status
 
 查看提交日志:git log
+配置.bashrc文件后:git-log
 
 版本回退:git reset --hard commitID
 查看已经删除的记录:git reflog
