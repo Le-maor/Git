@@ -28,6 +28,17 @@ HEAD指向哪个分支名,当前就在哪个分支
 
 创建本地分支:git branck 分支名
 
-切换分支:git checkout 分支名
+切换分支(切换前需要先提交):git checkout 分支名
 创建并切换:git checkoput -b 分支名
+
+合并分支(在主线上合并):git merge 分支名称
+
+删除分支
+git branch -d 分支名称
+git branch -D 分支名称 ---> 强制删除
+
+解决冲突:
+1.处理文件中冲突的地方
+2.将解决完冲突的文件加入暂存区
+3.提交到仓库
 """
